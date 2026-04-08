@@ -10,21 +10,21 @@ This project demonstrates how to measure the time interval between events using 
 -> Tinkercad simulation link : https://www.tinkercad.com/things/biGFhAl3W37-reaction-time-tester/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=XFw4tp0L0KI47RNUVXl2iOoMRZkxxdpVu3oUENtU33Y
 
 -> Components used : 
-Arduino uno
-Pushbutton
-LED
-Resistor(220 Ohm for LED)
-Resistor(10K Ohm for pushbutton)
-Breadboard
-Jumperwires
+1. Arduino uno
+2. Pushbutton
+3. LED
+4. Resistor(220 Ohm for LED)
+5. Resistor(10K Ohm for pushbutton)
+6. Breadboard
+7. Jumperwires
 
--> Circuit connection :
-Pushbutton : 
-  One terminal to Digital pin 8
-  Other terminal to GND
-LED :
-  Positive terminal to pin 10
-  Negative terminal to GND
+-> Circuit connection : 
+1. Pushbutton : 
+  - One terminal to Digital pin 8
+  - Other terminal to GND
+2. LED :
+  - Positive terminal to pin 10
+  - Negative terminal to GND
 
 -> Working principle : 
 The pushbutton is configured using INPUT_PULLUP() function which keeps the input HIGH by default.
